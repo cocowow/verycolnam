@@ -1,15 +1,53 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
-		<h1 class="h1">Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
-		<ul>
-			<li><code class="code">/src/routes/+layout.svelte</code> - barebones layout</li>
-			<li><code class="code">/src/app.postcss</code> - app wide css</li>
-			<li>
-				<code class="code">/src/routes/+page.svelte</code> - this page, you can replace the contents
-			</li>
-		</ul>
-	</div>
-</div>
+<section>
+<main>
+  <div class = "text">
+
+    <h1> Photoapp </h1>
+    <p>Denna sida innehåller fina bilder</p>
+
+  </div>
+	
+</main>
+</section>
+
+
+<style>
+  section{
+    width: 100vw;
+    height: 100vh;
+    margin: 0em;
+    background: url(https://i1.sndcdn.com/artworks-zyYqA8D0BdfuyH28-WeeHrw-t1080x1080.jpg) center center no-repeat fixed;
+    
+  }
+  main{
+    /*Styling för att dela upp sidan i två delar. */
+    /*Vi kommer gå igenom detta i detalj senare*/
+    margin: auto;
+    width: 80vw;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    overflow: hidden;
+    color: hotpink;
+    text-align: start;
+    
+  }
+  h1{
+    font-size: 65px;
+    margin-bottom: 35px;
+    
+  }
+  .text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: black;
+
+    
+  }
+  div{
+    /*Styling för att centrera texten i behållaren*/
+    margin: auto;
+  }
+  </style>

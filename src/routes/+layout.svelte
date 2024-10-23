@@ -22,4 +22,17 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
+
+<nav>
+	<a href="/">home sweetohme</a>
+	<a href="/photoapp">Photo App</a>
+</nav>
+<style>
+	:global(body), :global(html){
+	  margin: 0%;
+	  padding: 0%;
+	  height: 100vh;
+	  width: 100vw;
+	}    
+</style>
 <slot />
