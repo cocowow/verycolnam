@@ -26,6 +26,7 @@
 <nav>
 	<a href="/">home sweetohme</a>
 	<a href="/photoapp">Photo App</a>
+	<a href="/register">Register please!!</a>
 </nav>
 <style>
 	:global(body), :global(html){

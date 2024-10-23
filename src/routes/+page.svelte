@@ -3,8 +3,8 @@
 <main>
   <div class = "text">
 
-    <h1> Photoapp </h1>
-    <p>Denna sida innehåller fina bilder</p>
+    <h1> Yaayy sida </h1>
+    <p>wow</p>
 
   </div>
 	
@@ -35,6 +35,7 @@
   }
   h1{
     font-size: 65px;
+    margin-top: 50px;
     margin-bottom: 35px;
     
   }
