@@ -22,23 +22,24 @@ let picture = "slococat.jpg"
 <style>
     .photos{
         display:flex;
-        max-width: 70vw;
+        max-width: 80vw;
         overflow: hidden;
         justify-content: flex-start;
         flex-wrap: wrap;
         margin: auto;
         flex-basis: 300px;
+        
     }
     .photos img{
         width: 80%;
         align-items: center;       
-        flex-basis: 300px;
+        
     }
     .image-wrapper img{
         width: 80%;
         flex-grow: 1;
         border-radius: 15px;
-        box-shadow: 4px 8px 0px rgba(242, 83, 194, 0.296);
+        box-shadow: 6px 9px 0px rgba(242, 83, 194, 0.296);
         min-width: 300px;
     }
     .image-wrapper{

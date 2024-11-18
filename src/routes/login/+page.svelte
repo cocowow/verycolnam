@@ -14,9 +14,9 @@
 <form action="" on:submit|preventDefault={handleSubmit}>          
     <label for="name">Namn:</label>
     <input type="text" id="name" >
-    <label for="email">giveme email:</label>
+    <label for="email">your email thankyu:</label>
     <input type="email" id="email" >
-    <label for="password">Password pls😇:</label>
+    <label for="password">Enter password:</label>
     <input type="password" id="password" >
     <label for = "favoritfärg">What's your favourite color?</label>
     <select id = "favoritfärg" bind:value={selectedColor}>
@@ -26,7 +26,7 @@
     </select>
     <br>
     <br>
-    <input type="submit" value="Register here..." class= "knapp">
+    <input type="submit" value="Login!" class= "knapp">
 
 </form > 
 </div>
@@ -62,6 +62,7 @@
         border: solid 2px rgb(46, 27, 34);
         background-color: rgb(246, 200, 222);
         font-family:  'Arial Narrow Bold';
+        font-size: larger;
         
     }
 </style>
