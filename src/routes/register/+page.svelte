@@ -1,25 +1,30 @@
 <script>
-    let color = "black"
-    let colors = [{namn: "", value: ""},{namn: "Blå", value: "Blue"},{namn: "Lila", value: "purpol"},{namn: "gul", value: "Yellow"},{namn: "rosa", value: "Pink"}]
+	import { base } from "$app/paths";
+
+    let color = "black";
+    let namn
+    let email
+    let password
+    let colors = [{namn: "Blå", value: "PowderBlue"},{namn: "Violett", value: "violet"},{namn: "gul", value: "yellow"},{namn: "rosa", value: "Pink"},{namn: "Lax", value: "Salmon"}]
     function handleSubmit(){
         alert("Välkommen!")
     }
-    let selectedColor = colors[0].value;
 </script>
 
 <main>
 
 <div class = "container">
+    <h1>Registrering</h1>
     <div style="width: 100px; height: 100px; border-radius: 50%; overflow:hidden; background-color:{color};"> </div> 
 <form action="" on:submit|preventDefault={handleSubmit}>          
     <label for="name">Namn:</label>
-    <input type="text" id="name" >
+    <input type="text" id="name" bind:value={namn}>
     <label for="email">giveme email:</label>
-    <input type="email" id="email" >
+    <input type="email" id="email" bind:value={email}>
     <label for="password">Password pls😇:</label>
-    <input type="password" id="password" >
+    <input type="password" id="password" bind:value={password}>
     <label for = "favoritfärg">What's your favourite color?</label>
-    <select id = "favoritfärg" bind:value={selectedColor}>
+    <select id = "favoritfärg" bind:value={color}>
         {#each colors as c}
             <option value={c.value}>{c.namn}</option>
         {/each}
@@ -27,6 +32,9 @@
     <br>
     <br>
     <input type="submit" value="Register here..." class= "knapp">
+    <br>
+    <br>
+    <h2>Har du redan ett konto? <div class = "wrapthing"><a href = "{base}/login">Logga in</a></div> </h2>
 
 </form > 
 </div>
@@ -35,7 +43,7 @@
 
 <style>
  main{
-        background-image: url("https://i.pinimg.com/originals/d1/08/6a/d1086a64fecf583e00daf38fe1e9966c.jpg");
+        background-image: url("https://t4.ftcdn.net/jpg/05/21/65/59/360_F_521655929_N80d5GaCQJ2VP073PfTXJTe9mkvsNtHE.jpg");
         background-size: cover;
         width: 100%;
         height: 100%;
@@ -48,7 +56,7 @@
         border: solid 5px rgb(240, 190, 216);
         border-radius: 10px;
         width: 29%;
-        height: 85%;
+        height: 90%;
         background-color: rgb(255, 246, 251);
         margin: auto;
         flex-direction: column;
@@ -63,5 +71,8 @@
         background-color: rgb(246, 200, 222);
         font-family:  'Arial Narrow Bold';
         
+    }
+    .wrapthing:hover{
+        text-decoration: underline;
     }
 </style>
