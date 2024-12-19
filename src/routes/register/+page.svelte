@@ -31,12 +31,11 @@
     </select>
     <br>
     <br>
-    <input type="submit" value="Register here..." class= "knapp">
-    <br>
-    <br>
-    <h2>Har du redan ett konto? <div class = "wrapthing"><a href = "{base}/login">Logga in</a></div> </h2>
+    
 
 </form > 
+    <input type="submit" value="Register here..." class= "knapp">
+    <h2>Har du redan ett konto? <div class = "wrapthing"><a href = "{base}/login">Logga in</a></div> </h2>
 </div>
 
 </main>

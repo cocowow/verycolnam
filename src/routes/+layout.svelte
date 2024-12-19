@@ -29,6 +29,8 @@
 	<a href="{base}/photoapp">Photo App  </a>
 	<a href="{base}/register">Register please!!</a>
 	<a href="{base}/login">Inloggning</a>
+	<a href="{base}/shoppinglist">Shoppinglist</a>
+	<a href="{base}/memory">Memory</a>
 </nav>
 <style>
 	:global(body), :global(html){
