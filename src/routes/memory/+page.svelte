@@ -36,6 +36,14 @@
                         redpoint++
                     }
                 }
+                else if (flippedCards[0].image != flippedCards[1].image && blueTurn == true){
+        blueTurn = false /* NÅGOT BLIR FEL WAAHHHH*/
+       }
+                else if (flippedCards[0].image != flippedCards[1].image && blueTurn == false){
+        blueTurn = true
+       }
+
+       
                 setTimeout(() => {
                         cards.forEach((card) => {
                             card.flipped = card.matched;
@@ -46,10 +54,7 @@
                     
             }
         }
-        if(flipCount == 2 ){
-            blueTurn = !blueTurn
-            flipCount = 0
-        }
+        
             
             cards = cards
     }

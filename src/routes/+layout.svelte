@@ -31,6 +31,9 @@
 	<a href="{base}/login">Inloggning</a>
 	<a href="{base}/shoppinglist">Shoppinglist</a>
 	<a href="{base}/memory">Memory</a>
+	<a href="{base}/chat">Chat</a>
+	<a href="{base}/search">Search</a>
+	<a href="{base}/ux-login1">shtirdnf</a>
 </nav>
 <style>
 	:global(body), :global(html){

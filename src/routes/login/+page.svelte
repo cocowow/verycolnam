@@ -42,7 +42,7 @@
         width: 100%;
         height: 100%;
         padding: 5%;
-        
+        color: black;
     }
     
     .container{
@@ -70,4 +70,5 @@
     .wrapthing:hover{
         text-decoration: underline;
     }
+    
 </style>
