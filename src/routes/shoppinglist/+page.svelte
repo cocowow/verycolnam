@@ -36,7 +36,7 @@
     <section>
         <h2>Varor att köpa</h2>
         <ul>
-            {#each varor as vara, index}
+            {#each varor as vara}
             {#if vara.bought == false}
             <li>
                 <form on:submit|preventDefault={()=>itembought(vara)}>

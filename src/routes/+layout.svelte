@@ -33,7 +33,9 @@
 	<a href="{base}/memory">Memory</a>
 	<a href="{base}/chat">Chat</a>
 	<a href="{base}/search">Search</a>
-	<a href="{base}/ux-login1">shtirdnf</a>
+	<a href="{base}/keyboar">clicklcik</a>
+	<a href="{base}/h&m">Hank & Minerals</a>
+	
 </nav>
 <style>
 	:global(body), :global(html){
@@ -41,6 +43,10 @@
 	  padding: 0%;
 	  height: 100vh;
 	  width: 100vw;
-	}    
+	} 
+	
+	a{
+		margin-left: 50px;
+	}
 </style>
 <slot />
